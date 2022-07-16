@@ -26,3 +26,13 @@
 	</div>
 	</a>
 </div>
+<nav class="bottom-header">
+	<marquee width="60%" direction="left">
+		<?php foreach ($teks_berjalan as $newsticker) : ?>
+			<?= $newsticker['teks'] ?>
+			<?php if ($newsticker['tautan']) : ?>
+				<a href="<?= $newsticker['tautan'] ?>" class="newsticker-link"><i data-feather="link" class="icon icon-sm mr-2"></i> <?= $newsticker['judul_tautan'] ?></a>
+			<?php endif ?>
+		<?php endforeach ?>
+	</marquee>
+</nav>

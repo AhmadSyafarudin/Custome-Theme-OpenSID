@@ -9,6 +9,9 @@
     cursor: pointer;
 }
 
+
+/* Jumbotron */
+
 .jumbotron {
     background-color: salmon;
     width: 100%;
@@ -72,4 +75,23 @@
 
 .brand {
     display: flex;
+}
+
+
+/* running text */
+
+.bottom-header {
+    background-color: #023E8A;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    justify-content: center;
+    margin-top: -32px;
+}
+
+.bottom-header marquee {
+    width: 90%;
+    color: white;
 }
