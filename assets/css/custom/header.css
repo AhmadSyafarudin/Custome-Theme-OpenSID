@@ -1,0 +1,97 @@
+/* NAVBAR */
+
+.main-header {
+    height: 80px;
+    background-color: #023E8A;
+}
+
+#left-menu:hover {
+    cursor: pointer;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: salmon;
+    width: 100%;
+    height: 500px;
+}
+
+.container-fluid {
+    height: 500px;
+}
+
+.jumbotron {
+    height: 600px;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.jumbotron .container-c {
+    background-image: linear-gradient(to right, #0d32a0, rgba(0, 0, 0, 0));
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    color: white;
+}
+
+.jumbotron .container-c .menu-header {
+    margin-top: 40px;
+}
+
+.jumbotron .container-c .menu-header span {
+    background-color: #023E8A;
+    box-shadow: 2px 2px 3px 1px rgba(255, 255, 255, 0.712);
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 1%;
+}
+
+.jumbotron .container-c .menu-header span:hover {
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.712);
+}
+
+.jumbotron .container-c .menu-header span:active {
+    box-shadow: 2px 2px 1px rgba(255, 255, 255, 0.281);
+    background-color: whitesmoke;
+}
+
+.jumbotron .container-c a {
+    width: 100%;
+}
+
+.jumbotron .container-c a .brand-name {
+    color: white;
+    margin-left: 2%;
+    box-sizing: border-box;
+}
+
+.brand-title {
+    font-size: 50px;
+}
+
+.brand {
+    display: flex;
+}
+
+
+/* running text */
+
+.bottom-header {
+    background-color: #023E8A;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    justify-content: center;
+    margin-top: -32px;
+}
+
+.bottom-header marquee {
+    width: 90%;
+    color: white;
+}
