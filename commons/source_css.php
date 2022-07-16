@@ -19,3 +19,4 @@
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/materializeicon/material-icons.css?" . THEME_VERSION) ?>">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/swiper/css/swiper.min.css?" . THEME_VERSION) ?>">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/animatecss/animate.css?" . THEME_VERSION) ?>">
+<link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/custom/header.css") ?>">
