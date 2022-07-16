@@ -15,6 +15,7 @@
     <?php else : ?>
         <?php $this->load->view($folder_themes . '/commons/header') ?>
         <?php $this->load->view($folder_themes . '/commons/sidebar') ?>
+        <?php $this->load->view($folder_themes . '/partials/slider/index') ?>
     <?php endif ?>
 </body>
 
