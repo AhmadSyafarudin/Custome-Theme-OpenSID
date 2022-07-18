@@ -1,0 +1,26 @@
+.small-box > .inner {
+    padding: 10px;
+}
+
+.bg-contain {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.text-keterangan {
+    margin: auto auto -27px 21px;
+}
+
+.card-idm {margin: 15px auto auto auto;}
+
+.chart-idm {
+    margin: 20px;
+}
+
+.img-idm {
+    margin: auto;
+}
+
+.button-lapak {
+    margin: auto;
+}
