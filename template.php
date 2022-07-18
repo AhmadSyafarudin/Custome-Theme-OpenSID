@@ -13,9 +13,8 @@
     <?php if ($this->uri->segment(2) == 'kategori' && empty($judul_kategori)) : ?>
         <?php $this->load->view($folder_themes . '/commons/404') ?>
     <?php else : ?>
-        <?php $this->load->view($folder_themes . '/commons/header') ?>
-        <?php $this->load->view($folder_themes . '/commons/sidebar') ?>
-        <?php $this->load->view($folder_themes . '/partials/slider/index') ?>
+        <?php $this->load->view($folder_themes . '/partials/artikel/artikel') ?>
+
     <?php endif ?>
 </body>
 
