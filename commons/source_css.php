@@ -13,11 +13,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/purplesidebar.css?" . THEME_VERSION) ?>">
+<<<<<<< HEAD
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/loader.css?" . THEME_VERSION) ?>">
 <!-- <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/font-awesome.min.css?" . THEME_VERSION) ?>"> -->
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/component/home-menu.css?" . THEME_VERSION) ?>">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/component/statistik.css?" . THEME_VERSION) ?>">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/component/bootstrap.min.css?" . THEME_VERSION) ?>">
+=======
+>>>>>>> 4cd32b9d6589d4e3dcff50b966a59b3a8265474a
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/materializeicon/material-icons.css?" . THEME_VERSION) ?>">
-<link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/swiper/css/swiper.min.css?" . THEME_VERSION) ?>">
-<link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/animatecss/animate.css?" . THEME_VERSION) ?>">
+<link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/bootstrap-5.0.2/css/bootstrap.min.css?" . THEME_VERSION) ?>">

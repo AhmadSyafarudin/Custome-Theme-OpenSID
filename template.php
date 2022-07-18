@@ -13,9 +13,13 @@
     <?php if ($this->uri->segment(2) == 'kategori' && empty($judul_kategori)) : ?>
         <?php $this->load->view($folder_themes . '/commons/404') ?>
     <?php else : ?>
+<<<<<<< HEAD
         <?php $this->load->view($folder_themes . '/commons/header') ?>
         <?php $this->load->view($folder_themes . '/commons/sidebar') ?>
         <?php $this->load->view($folder_themes . '/commons/StatistikPenduduk') ?>
+=======
+        <?php $this->load->view($folder_themes . '/partials/artikel/artikel') ?>
+>>>>>>> 4cd32b9d6589d4e3dcff50b966a59b3a8265474a
 
     <?php endif ?>
 </body>

@@ -77,6 +77,10 @@ Cutomize css starts
   box-sizing: border-box;
 }
 
+.cover {
+  object-fit: cover;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
