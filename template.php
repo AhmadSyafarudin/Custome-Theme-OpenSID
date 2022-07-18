@@ -9,12 +9,14 @@
     <?php $this->load->view($folder_themes . '/commons/source_js') ?>
 </head>
 
-<body class="fixed-header sidebar-right-close sidebar-left-close">
+<body class="fixed-header sidebar-right-close sidebar-left-close" style="background : #F8F9FA;">
     <?php if ($this->uri->segment(2) == 'kategori' && empty($judul_kategori)) : ?>
         <?php $this->load->view($folder_themes . '/commons/404') ?>
     <?php else : ?>
         <?php $this->load->view($folder_themes . '/commons/header') ?>
         <?php $this->load->view($folder_themes . '/commons/sidebar') ?>
+        <?php $this->load->view($folder_themes . '/commons/StatistikPenduduk') ?>
+
     <?php endif ?>
 </body>
 

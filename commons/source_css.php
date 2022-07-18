@@ -15,7 +15,9 @@
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/purplesidebar.css?" . THEME_VERSION) ?>">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/loader.css?" . THEME_VERSION) ?>">
 <!-- <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/font-awesome.min.css?" . THEME_VERSION) ?>"> -->
-<link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/bootstrap-lazy-load.css?" . THEME_VERSION) ?>">
+<link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/component/home-menu.css?" . THEME_VERSION) ?>">
+<link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/component/statistik.css?" . THEME_VERSION) ?>">
+<link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/component/bootstrap.min.css?" . THEME_VERSION) ?>">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/materializeicon/material-icons.css?" . THEME_VERSION) ?>">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/swiper/css/swiper.min.css?" . THEME_VERSION) ?>">
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/vendor/animatecss/animate.css?" . THEME_VERSION) ?>">

@@ -1,0 +1,24 @@
+.menu-contain {margin: 20px 0px; padding: 50px;}
+
+.card-menu {
+    margin: 10px auto;
+    height: 200px;
+}
+
+.home-menu {
+    display: flex;
+}
+
+.list-menu {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.title-menu {
+    margin-top: 10px;
+}
+
+body {background: #F8F9FA;}
+
+.nav-center {}
