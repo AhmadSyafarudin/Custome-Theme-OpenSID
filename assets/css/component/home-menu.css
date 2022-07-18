@@ -2,7 +2,11 @@
 
 .card-menu {
     margin: 10px auto;
+<<<<<<< HEAD
     height: 180px;
+=======
+    height: 200px;
+>>>>>>> 9ca19233b75dcd867583d6b036e7b453848c3cc9
 }
 
 .home-menu {
@@ -19,4 +23,10 @@
     margin-top: 10px;
 }
 
+<<<<<<< HEAD
 body {background: #F8F9FA;}
+=======
+body {background: #F8F9FA;}
+
+.nav-center {}
+>>>>>>> 9ca19233b75dcd867583d6b036e7b453848c3cc9

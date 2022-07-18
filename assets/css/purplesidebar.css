@@ -77,6 +77,13 @@ Cutomize css starts
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+.cover {
+  object-fit: cover;
+}
+
+>>>>>>> 9ca19233b75dcd867583d6b036e7b453848c3cc9
 html {
   font-family: sans-serif;
   line-height: 1.15;

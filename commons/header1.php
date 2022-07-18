@@ -3,19 +3,13 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v12.0&appId=<?= config_item('fbappid') ?>&autoLogAppEvents=1"></script>
 <!-- main header -->
-<<<<<<< HEAD
 <header class="main-header">
 	<div class="container-fluid">
 		<div class="row align-items-center">
-			<div class="col-auto px-0">
-				<button class="btn pink-gradient btn-icon" id="left-menu">
+			<div class="col-auto px-0 menu-sidebar ml-4">
+				<div class="btn btn-icon" id="left-menu">
 					<img src="<?= base_url("$this->theme_folder/$this->theme/assets/image/button-sidebar.svg") ?>" alt="">
-				</button>
-				<a href="<?= site_url(); ?>" class="logo"><img src="<?= gambar_desa($desa['logo']); ?>" alt="">
-					<span class="">
-						<b class="text-hide-xs"><?= $this->setting->website_title ?></b> <b><?= ucwords($this->setting->sebutan_desa) . ' ' . $desa['nama_desa'] ?></b><br>
-						<span class="small"><?= ucwords($this->setting->sebutan_kecamatan) . ' ' . $desa['nama_kecamatan'] . '</span> <span class="small text-hide-xs">' . ucwords($this->setting->sebutan_kabupaten) . ' ' . $desa['nama_kabupaten'] ?></span></span>
-				</a>
+				</div>
 			</div>
 			<div class="col px-0 text-right">
 				<?php include("$this->theme_folder/$this->theme/commons/statistik_pengunjung.php"); ?>
@@ -101,9 +95,9 @@
 </header>
 <?php if (!in_array($this->uri->segment(1), ['lapak']) && !in_array($this->uri->segment(2), ['lapak'])) : ?>
 	<div class="container-fluid">
-		<div class="row align-items-center has-background-img min-height-200">
-			<figure class="background-img pink-gradient">
-				<img src="<?= base_url("$this->theme_folder/$this->theme/assets/image/bg-hd.png"); ?>">
+		<div class="row align-items-center has-background-img min-height-200 container-c">
+			<figure class="">
+				<img src="<?= base_url("$this->theme_folder/$this->theme/assets/image/bg-header.jpg"); ?>">
 			</figure>
 			<div class="container<?= config_item('fluid') ? '-fluid' : '' ?>">
 				<div class="row align-items-center <?php if (empty($_GET['cari']) && (in_array($this->uri->segment(1), ['', 'index'])) && (in_array($this->uri->segment(2), ['', 'index'])) && (config_item('menu') == false)) : ?>mb-5 mt-0<?php endif; ?>">
@@ -133,38 +127,3 @@
 		<?php if (config_item('menu') == true) $this->load->view($folder_themes . '/partials/home/menu'); ?>
 	</div>
 <?php endif; ?>
-=======
-<nav class="main-header px-5">
-	<div id="left-menu">
-		<img src="<?= base_url("$this->theme_folder/$this->theme/assets/image/button-sidebar.svg") ?>" alt="">
-	</div>
-</nav>
-<div class="jumbotron" style="background-image: url(<?= base_url("$this->theme_folder/$this->theme/assets/image/bg-header.jpg") ?>); background-size: 100% auto; background-repeat:no-repeat;background-position:right; filter:blur(20)">
-	<div class="container-c">
-		<a href="<?= site_url() ?>" class="brand">
-			<img src="<?= gambar_desa($desa['logo']) ?>" alt="Logo <?= ucfirst($this->setting->sebutan_desa) . ' ' . ucwords($desa['nama_desa']) ?>" class="" width="150">
-			<div class="brand-name">
-				<span class="brand-title"><?= NAMA_DESA ?></span>
-				<p class="brand-tagline"><?= ucfirst($this->setting->sebutan_kecamatan_singkat) ?>
-					<?= ucwords($desa['nama_kecamatan']) ?>
-					<?= ucfirst($this->setting->sebutan_kabupaten_singkat) ?>
-					<?= ucwords($desa['nama_kabupaten']) ?></p>
-				<div class="menu-header">
-					<span>Layanan Mandiri</span>
-					<span>Bantuan</span>
-				</div>
-			</div>
-	</div>
-	</a>
-</div>
-<nav class="bottom-header">
-	<marquee width="60%" direction="left">
-		<?php foreach ($teks_berjalan as $newsticker) : ?>
-			<?= $newsticker['teks'] ?>
-			<?php if ($newsticker['tautan']) : ?>
-				<a href="<?= $newsticker['tautan'] ?>" class="newsticker-link"><i data-feather="link" class="icon icon-sm mr-2"></i> <?= $newsticker['judul_tautan'] ?></a>
-			<?php endif ?>
-		<?php endforeach ?>
-	</marquee>
-</nav>
->>>>>>> 9ca19233b75dcd867583d6b036e7b453848c3cc9
